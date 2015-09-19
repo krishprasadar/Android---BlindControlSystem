@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BlindControlSystem</string>
+    <string name="title_activity_home">Current Readings</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fuzzy_rules">Fuzzy Rules</string>
+    <string name="title_activity_add_rule">Add Rule</string>
+
+    <string-array name="array_temp">
+        <item>freezing</item>
+        <item>cold</item>
+        <item>comfort</item>
+        <item>warm</item>
+        <item>hot</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="array_ambient">
+        <item>dark</item>
+        <item>dim</item>
+        <item>bright</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="array_blind">
+        <item>open</item>
+        <item>half</item>
+        <item>close</item>
+    </string-array>
+    <string-array name="array_condition">
+        <item>AND</item>
+        <item>OR</item>
+    </string-array>
+    <string name="title_activity_main_connect">Blind Control System</string>
+    <string name="title_activity_update_rule">Update Fuzzy Rule</string>
+    <string name="title_activity_live_feed">Temperature Live Feed</string>
+    <string name="title_activity_feed_page">feedPage</string>
+    <string name="title_activity_live_feed_settings">Notification Settings</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tis.blindcontrolsystem" >
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:maxSdkVersion="21" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name=".BlindApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".fuzzyRules"
+            android:label="@string/title_activity_fuzzy_rules" >
+        </activity>
+        <activity
+            android:name=".addRule"
+            android:label="@string/title_activity_add_rule" >
+        </activity>
+        <activity
+            android:name=".mainConnect"
+            android:label="@string/title_activity_main_connect" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".updateRule"
+            android:label="@string/title_activity_update_rule" >
+        </activity>
+        <activity
+            android:name=".feedPage"
+            android:label="@string/title_activity_feed_page" >
+        </activity>
+        <activity
+            android:name=".liveFeedSettings"
+            android:label="@string/title_activity_live_feed_settings" >
+        </activity>
+    </application>
+
+</manifest>
